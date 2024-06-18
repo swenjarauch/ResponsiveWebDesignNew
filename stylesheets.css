@@ -1,8 +1,14 @@
 body {
-  margin: 0;
+  margin: 60;
   padding: 0;
   box-sizing: border-box;
+
+  
+  
+
 }
+  
+
 
 .container {
   margin: 20px; /* Hier wird der Seitenrand festgelegt */
@@ -11,9 +17,28 @@ body {
   background-color: #f9f9f9;
 }
 
-header, main, footer {
-  padding: 10px;
-  margin: 10px 0;
-  background-color: #e9e9e9;
-  border: 1px solid #ccc;
-   }
+
+
+
+
+
+.card {
+  width: rem; /* Setze die Breite der Karte titel*/
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.hover-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+
